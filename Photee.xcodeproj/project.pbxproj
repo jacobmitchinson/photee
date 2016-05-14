@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2F62AD91CE78192002AE034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F62AD81CE78192002AE034 /* AppDelegate.swift */; };
+		A2F62ADB1CE78192002AE034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F62ADA1CE78192002AE034 /* ViewController.swift */; };
+		A2F62ADE1CE78192002AE034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F62ADC1CE78192002AE034 /* Main.storyboard */; };
+		A2F62AE01CE78192002AE034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F62ADF1CE78192002AE034 /* Assets.xcassets */; };
+		A2F62AE31CE78192002AE034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F62AE11CE78192002AE034 /* LaunchScreen.storyboard */; };
+		A2F62AEE1CE78192002AE034 /* PhoteeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F62AED1CE78192002AE034 /* PhoteeTests.swift */; };
+		A2F62AF91CE78192002AE034 /* PhoteeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F62AF81CE78192002AE034 /* PhoteeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2F62AEA1CE78192002AE034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2F62ACD1CE78192002AE034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2F62AD41CE78192002AE034;
+			remoteInfo = Photee;
+		};
+		A2F62AF51CE78192002AE034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2F62ACD1CE78192002AE034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2F62AD41CE78192002AE034;
+			remoteInfo = Photee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2F62AD51CE78192002AE034 /* Photee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F62AD81CE78192002AE034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2F62ADA1CE78192002AE034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2F62ADD1CE78192002AE034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2F62ADF1CE78192002AE034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2F62AE21CE78192002AE034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2F62AE41CE78192002AE034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F62AE91CE78192002AE034 /* PhoteeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoteeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F62AED1CE78192002AE034 /* PhoteeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoteeTests.swift; sourceTree = "<group>"; };
+		A2F62AEF1CE78192002AE034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F62AF41CE78192002AE034 /* PhoteeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoteeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F62AF81CE78192002AE034 /* PhoteeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoteeUITests.swift; sourceTree = "<group>"; };
+		A2F62AFA1CE78192002AE034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2F62AD21CE78192002AE034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F62AE61CE78192002AE034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F62AF11CE78192002AE034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2F62ACC1CE78192002AE034 = {
+			isa = PBXGroup;
+			children = (
+				A2F62AD71CE78192002AE034 /* Photee */,
+				A2F62AEC1CE78192002AE034 /* PhoteeTests */,
+				A2F62AF71CE78192002AE034 /* PhoteeUITests */,
+				A2F62AD61CE78192002AE034 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2F62AD61CE78192002AE034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2F62AD51CE78192002AE034 /* Photee.app */,
+				A2F62AE91CE78192002AE034 /* PhoteeTests.xctest */,
+				A2F62AF41CE78192002AE034 /* PhoteeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2F62AD71CE78192002AE034 /* Photee */ = {
+			isa = PBXGroup;
+			children = (
+				A2F62AD81CE78192002AE034 /* AppDelegate.swift */,
+				A2F62ADA1CE78192002AE034 /* ViewController.swift */,
+				A2F62ADC1CE78192002AE034 /* Main.storyboard */,
+				A2F62ADF1CE78192002AE034 /* Assets.xcassets */,
+				A2F62AE11CE78192002AE034 /* LaunchScreen.storyboard */,
+				A2F62AE41CE78192002AE034 /* Info.plist */,
+			);
+			path = Photee;
+			sourceTree = "<group>";
+		};
+		A2F62AEC1CE78192002AE034 /* PhoteeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2F62AED1CE78192002AE034 /* PhoteeTests.swift */,
+				A2F62AEF1CE78192002AE034 /* Info.plist */,
+			);
+			path = PhoteeTests;
+			sourceTree = "<group>";
+		};
+		A2F62AF71CE78192002AE034 /* PhoteeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2F62AF81CE78192002AE034 /* PhoteeUITests.swift */,
+				A2F62AFA1CE78192002AE034 /* Info.plist */,
+			);
+			path = PhoteeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2F62AD41CE78192002AE034 /* Photee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F62AFD1CE78192002AE034 /* Build configuration list for PBXNativeTarget "Photee" */;
+			buildPhases = (
+				A2F62AD11CE78192002AE034 /* Sources */,
+				A2F62AD21CE78192002AE034 /* Frameworks */,
+				A2F62AD31CE78192002AE034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photee;
+			productName = Photee;
+			productReference = A2F62AD51CE78192002AE034 /* Photee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2F62AE81CE78192002AE034 /* PhoteeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F62B001CE78192002AE034 /* Build configuration list for PBXNativeTarget "PhoteeTests" */;
+			buildPhases = (
+				A2F62AE51CE78192002AE034 /* Sources */,
+				A2F62AE61CE78192002AE034 /* Frameworks */,
+				A2F62AE71CE78192002AE034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2F62AEB1CE78192002AE034 /* PBXTargetDependency */,
+			);
+			name = PhoteeTests;
+			productName = PhoteeTests;
+			productReference = A2F62AE91CE78192002AE034 /* PhoteeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2F62AF31CE78192002AE034 /* PhoteeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F62B031CE78192002AE034 /* Build configuration list for PBXNativeTarget "PhoteeUITests" */;
+			buildPhases = (
+				A2F62AF01CE78192002AE034 /* Sources */,
+				A2F62AF11CE78192002AE034 /* Frameworks */,
+				A2F62AF21CE78192002AE034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2F62AF61CE78192002AE034 /* PBXTargetDependency */,
+			);
+			name = PhoteeUITests;
+			productName = PhoteeUITests;
+			productReference = A2F62AF41CE78192002AE034 /* PhoteeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2F62ACD1CE78192002AE034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Bravery Us Ltd";
+				TargetAttributes = {
+					A2F62AD41CE78192002AE034 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A2F62AE81CE78192002AE034 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A2F62AD41CE78192002AE034;
+					};
+					A2F62AF31CE78192002AE034 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A2F62AD41CE78192002AE034;
+					};
+				};
+			};
+			buildConfigurationList = A2F62AD01CE78192002AE034 /* Build configuration list for PBXProject "Photee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2F62ACC1CE78192002AE034;
+			productRefGroup = A2F62AD61CE78192002AE034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2F62AD41CE78192002AE034 /* Photee */,
+				A2F62AE81CE78192002AE034 /* PhoteeTests */,
+				A2F62AF31CE78192002AE034 /* PhoteeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2F62AD31CE78192002AE034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F62AE31CE78192002AE034 /* LaunchScreen.storyboard in Resources */,
+				A2F62AE01CE78192002AE034 /* Assets.xcassets in Resources */,
+				A2F62ADE1CE78192002AE034 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F62AE71CE78192002AE034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F62AF21CE78192002AE034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2F62AD11CE78192002AE034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F62ADB1CE78192002AE034 /* ViewController.swift in Sources */,
+				A2F62AD91CE78192002AE034 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F62AE51CE78192002AE034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F62AEE1CE78192002AE034 /* PhoteeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F62AF01CE78192002AE034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F62AF91CE78192002AE034 /* PhoteeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2F62AEB1CE78192002AE034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2F62AD41CE78192002AE034 /* Photee */;
+			targetProxy = A2F62AEA1CE78192002AE034 /* PBXContainerItemProxy */;
+		};
+		A2F62AF61CE78192002AE034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2F62AD41CE78192002AE034 /* Photee */;
+			targetProxy = A2F62AF51CE78192002AE034 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2F62ADC1CE78192002AE034 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F62ADD1CE78192002AE034 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2F62AE11CE78192002AE034 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F62AE21CE78192002AE034 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2F62AFB1CE78192002AE034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2F62AFC1CE78192002AE034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2F62AFE1CE78192002AE034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Photee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravery.Photee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2F62AFF1CE78192002AE034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Photee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravery.Photee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2F62B011CE78192002AE034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhoteeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravery.PhoteeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photee.app/Photee";
+			};
+			name = Debug;
+		};
+		A2F62B021CE78192002AE034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhoteeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravery.PhoteeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photee.app/Photee";
+			};
+			name = Release;
+		};
+		A2F62B041CE78192002AE034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhoteeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravery.PhoteeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Photee;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A2F62B051CE78192002AE034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhoteeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bravery.PhoteeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Photee;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2F62AD01CE78192002AE034 /* Build configuration list for PBXProject "Photee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F62AFB1CE78192002AE034 /* Debug */,
+				A2F62AFC1CE78192002AE034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F62AFD1CE78192002AE034 /* Build configuration list for PBXNativeTarget "Photee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F62AFE1CE78192002AE034 /* Debug */,
+				A2F62AFF1CE78192002AE034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2F62B001CE78192002AE034 /* Build configuration list for PBXNativeTarget "PhoteeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F62B011CE78192002AE034 /* Debug */,
+				A2F62B021CE78192002AE034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2F62B031CE78192002AE034 /* Build configuration list for PBXNativeTarget "PhoteeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F62B041CE78192002AE034 /* Debug */,
+				A2F62B051CE78192002AE034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2F62ACD1CE78192002AE034 /* Project object */;
+}
